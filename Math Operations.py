@@ -1,23 +1,23 @@
 #Author: Shreya Panthee
-#Date Modified: 2025-02-21
-#Description:
+#Date Modified: 2025-02-22
+#Description: Code that performs addition, subtraction, multiplication, division, modular division, and exponential equations.
 
-#Adds 2 numbers
+#Adds 3 and 250
 sum_add=3+250
 
 #Finds the difference between 3 and -250
 difference = 3-250
 
-#Finds the product of 3 2 and 5
+#Finds the product of 3, 2, and 5
 product = 3*2*5
 
-#finds the quotient
+#Finds the quotient of 251 divided by 6
 quotient = 251/6
 
-#finds 2 to the power of 3
+#Finds 2 to the power of 3
 exponent = 2**3
 
-#find the remainder when dividing 27 by 17
+#Find the remainder when dividing 27 by 17
 remainder = 27%17
 
 #Prints Sum

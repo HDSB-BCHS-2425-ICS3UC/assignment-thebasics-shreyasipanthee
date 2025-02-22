@@ -1,6 +1,6 @@
 #Author: Shreya Panthee
-#Date Modified:2025-02-21
-#Description:
+#Date Modified:2025-02-22
+#Description: Code that stores different data types (which include: integer, string, boolean and float) in different variables and prints them.
 
 #Creating a variable to store an integer data type
 integer = int(23)
