@@ -1,5 +1,5 @@
 #Author: Shreya Panthee
-#Date Modified: 2025-02-22
+#Date Modified: 2025-02-25
 #Description: Code that performs addition, subtraction, multiplication, division, modular division, and exponential equations.
 
 #Adds 3 and 250
@@ -21,19 +21,19 @@ exponent = 2**3
 remainder = 27%17
 
 #Prints Sum
-print(sum_add)
+print("This is the sum of 3 and 250: " + str(sum_add))
 
 #Prints Difference
-print(difference)
+print("This is the difference between 3 and -250: " + str(difference))
 
 #Prints Product
-print(product)
+print("This is the product of 3,2 and 5: " + str(product))
 
 #Prints Quotient
-print(quotient)
+print("This is the quotient when 251 is divided by 6: " + str(quotient))
 
 #Prints Exponent
-print(exponent)
+print("This is the result of 2 to the power 3: " + str(exponent))
 
 #Prints Remainder
-print(remainder)
+print("This is the remainder when 27 is divided by 17: " + str(remainder))

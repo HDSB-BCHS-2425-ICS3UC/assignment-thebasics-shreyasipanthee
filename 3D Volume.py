@@ -1,12 +1,16 @@
 #Author: Shreya Panthee
-#Date Modified:2025-02-23
+#Date Modified:2025-02-28
 #Description: Code that calculates the volume of a cube, sphere, cone, or cylinder based on user input and takes the required parameters to calculate the volume from the user.
 
 def safe_int_input(prompt):
-    """Prompt the user until a valid integer is entered."""
+    """Prompts the user until a valid integer is entered."""
     while True:
         try:
-            return int(input(prompt))
+            value = float(input(prompt))
+            if value > 0:
+                return value
+            else:
+                print("Please enter a positive number.")
         except ValueError:
             print("Invalid input. Please enter a valid integer.")
 
@@ -33,7 +37,7 @@ match user_input:
         radius = safe_int_input("Enter the radius of the sphere and press Enter: ")
         
         #Calculating and printing the volume of the sphere
-        volume = 4/3 * 3.14 * radius
+        volume = 4/3 * 3.14 * radius**3
         print("The volume of the sphere is: " + str(volume))
 
     case 3:#Case to calculate volume of a sphere
